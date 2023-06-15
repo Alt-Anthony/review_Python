@@ -1,5 +1,6 @@
-def hello():
-    print("hello ",end="")
+def hello(test="this is a test"):
+    print("hello, ", test)
     
 hello()
-print("David")
+name = input("What's your name? ")
+hello(name)
